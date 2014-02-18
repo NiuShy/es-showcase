@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="E:\Develop\IdeaProjects\es-showcase\src\main\java\es\showcase\domain\abcde.java" afterPath="" />
     </list>
     <ignored path="es-showcase.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392703552310" ignored="false" />
+    <file path="/Dummy.txt" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392709809004" ignored="false" />
     <file path="/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392689157162" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392686832035" ignored="false" />
     <file path="E:/elasticSearch/demo/EsDemo/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392689482037" ignored="false" />
@@ -18,10 +18,18 @@
     <file path="$PROJECT_DIR$/../apex/core/src/main/java/com/hupu/apex/utils/RequestMonitorUtil.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392700196026" ignored="false" />
     <file path="/RequestMonitorUtil.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392700189395" ignored="false" />
     <file path="/dd.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392694946200" ignored="false" />
-    <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/EsClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392702929712" ignored="false" />
-    <file path="/EsClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392702905753" ignored="false" />
+    <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/EsClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392713504030" ignored="false" />
+    <file path="/EsClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392713503180" ignored="false" />
     <file path="E:/elasticSearch/demo/elasticsearch-tutorial/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392703552310" ignored="false" />
     <file path="/abcde.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392705149463" ignored="false" />
+    <file path="E:/elasticSearch/demo/elasticsearch-tutorial/src/main/java/org/jai/search/client/impl/SearchClientServiceMockImpl.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392709226650" ignored="false" />
+    <file path="/SearchClientServiceMockImpl.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392709011084" ignored="false" />
+    <file path="E:/elasticSearch/demo/elasticsearch-tutorial/src/test/java/org/jai/search/test/AbstractSearchJUnit4SpringContextTests.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392709691435" ignored="false" />
+    <file path="/AbstractSearchJUnit4SpringContextTests.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392707705286" ignored="false" />
+    <file path="/fragment.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392716043277" ignored="false" />
+    <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/App.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715948257" ignored="false" />
+    <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/EsDao.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715569004" ignored="false" />
+    <file path="/EsDao.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715463758" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,26 +89,7 @@
     <favorites_list name="es-showcase" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ESTransportClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="34" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abcde.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/abcde.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.37694013">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -228,6 +217,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esnative" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -306,13 +307,14 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.dd">
+  <component name="RunManager">
     <configuration default="false" name="EmployeeTestDemoApp.indexSingle" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -393,28 +395,6 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="dd" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="es.showcase.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="es.showcase.domain.dd" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="es-showcase" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -532,18 +512,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexSingle" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexMultipleWithBulk" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.search" />
-      <item index="3" class="java.lang.String" itemvalue="Application.dd" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.dd" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.search" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexMultipleWithBulk" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexSingle" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.search" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexMultipleWithBulk" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexSingle" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -564,7 +542,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18549512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40725243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -580,11 +558,11 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.6666667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15566714" sideWeight="0.81450486" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23242468" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17360115" sideWeight="0.59274757" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -684,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="36" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0372807">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.038321167">
@@ -712,16 +683,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="34" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="333" selection-end="333" vertical-scroll-proportion="0.19710144">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/abcde.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.37694013">
+        <state line="19" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.37666175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="36" selection-start="1452" selection-end="1452" vertical-scroll-proportion="-1.1826087">
           <folding />
         </state>
       </provider>
