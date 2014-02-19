@@ -1,5 +1,6 @@
 package es.showcase.client.esnative;
 
+import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import es.showcase.domain.Employee;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
@@ -13,6 +14,7 @@ import org.elasticsearch.common.text.Text;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.index.query.FilterBuilders;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
@@ -130,9 +132,10 @@ public class EmployeeTestDemoApp {
                 .setSearchType(SearchType.QUERY_AND_FETCH)
                 .setQuery(QueryBuilders.fieldQuery("descript", "easy"))
                 .setFilter(FilterBuilders.rangeFilter("salary").from(6000).to(7000))
-                .setFrom(0).setSize(20).setExplain(true)
+                .setFrom(0).setSize(20).setExplain(true)        //setSize分页显示
                 .execute().actionGet();
         SearchHit[] results = searchResponse.getHits().getHits();
+        SearchHits searchHits = searchResponse.getHits();
         System.out.println("Current results: " + results.length);
         for (SearchHit hit : results) {
             System.out.println("------------------------------");
@@ -146,7 +149,7 @@ public class EmployeeTestDemoApp {
      * @throws IOException
      */
     @Test
-    public void searchReturnHighlighted() throws IOException {
+    public void searchWithHighlighted() throws IOException {
         Client client = esNativeClient.getEsClient();
         SearchResponse searchResponse = client.prepareSearch("company")
                 .setTypes("employees")
@@ -172,6 +175,96 @@ public class EmployeeTestDemoApp {
             }
             employee.setDescript(discript);
             System.out.println(employee.getDescript());
+        }
+    }
+
+    /**
+     * QueryBuilders.matchAllQuery()
+     * 匹配所有Document的Query
+     * @throws IOException
+     */
+    @Test
+    public void testMatchAllQuery() throws IOException {
+        QueryBuilder builder = QueryBuilders.matchAllQuery();
+        testQuery(builder);
+    }
+
+    /**
+     * matchQuery根据field的值对Document进行查询
+     * 可以看到默认情况下汉字通过matchQuery方法查询时会被分词器分词
+     */
+    @Test
+    public void testMatchQuery() throws IOException {
+        QueryBuilder builder1 = QueryBuilders.matchQuery("name","吕梓");
+        testQuery(builder1);
+        System.out.println("=====================");
+        QueryBuilder builder2 = QueryBuilders.matchQuery("descript","抠脚大雪worry");
+        testQuery(builder2);
+    }
+
+    /**
+     * multiMatchQuery中可以指定多个field,是matchQuery的增强版
+     * 汉字通过matchQuery方法查询时会被分词器分词
+     */
+    @Test
+    public void testMultiMatchQuery() throws IOException {
+        QueryBuilder builder = QueryBuilders.multiMatchQuery("superman再见jack","name","descript");
+        testQuery(builder);
+    }
+
+    /**
+     * matchPhraseQuery是以短语查询
+     * 创建索引所使用的field的value中如果有这么一个短语（顺序无差，且连接在一起）
+     * 才会被matchPhraseQuery查询出来
+     */
+    @Test
+    public void testMatchPhraseQuery() throws IOException {
+        QueryBuilder builder1 = QueryBuilders.matchPhraseQuery("descript","super");
+        testQuery(builder1);
+        System.out.println("=========================");
+        QueryBuilder builder2 = QueryBuilders.matchPhraseQuery("descript","而抠");
+        testQuery(builder2);
+    }
+
+    /**
+     * 从matchQuery和termQuery的查询结果可以看出两者的差别
+     * 默认情况下汉字通过termQuery查询时不会被分词(作为完整的词条)
+     * 适合单个汉字或是个单词查询
+     */
+    @Test
+    public void testTermQuery() throws IOException {
+        QueryBuilder builder1 = QueryBuilders.termQuery("name","吕涵紫");
+        testQuery(builder1);
+        System.out.println("==========================");
+        QueryBuilder builder2 = QueryBuilders.termQuery("name","紫");
+        testQuery(builder2);
+
+    }
+
+    /**
+     * 指定type和索引的id查询,个人感觉用处不大
+     */
+    @Test
+    public  void testIdsQuery() throws IOException {
+        QueryBuilder builder = QueryBuilders.idsQuery("employees").ids("HP-0xff00");
+        testQuery(builder);
+    }
+
+    public void testQuery(QueryBuilder queryBuilder) throws IOException {
+        Client client = esNativeClient.getEsClient();
+        SearchResponse response = client.prepareSearch("company")
+                .setTypes("employees")
+                .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
+                .setQuery(queryBuilder)
+                .setFilter(FilterBuilders.rangeFilter("age").from(20).to(30))
+                .setFrom(0).setSize(20).setExplain(true)
+                .execute().actionGet();
+        SearchHits hits = response.getHits();
+        System.out.println("Current results: " + hits.totalHits());
+        for(SearchHit searchHit : hits){
+            String json = searchHit.getSourceAsString();
+            Employee employee = mapper.readValue(json, Employee.class);
+            System.out.println(employee);
         }
     }
 

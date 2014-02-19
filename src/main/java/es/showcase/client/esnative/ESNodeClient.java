@@ -22,6 +22,10 @@ public class ESNodeClient implements ESNativeClient{
                     .put("node.name","test-node").build();
             /**
              * 指定es的集群名称,当启动该节点时,会自动加入指定的es集群
+             * NodeBuilder自带了client、data、local、clusterName方法，不过NodeBuilder自带的方法有限
+             * 推荐使用ImmutableSettings.settingsBuilder(Map map)或
+             * NodeBuilder.nodeBuilder().loadConfigSettings(true)加载yml配置文件方式来实现
+             * 需求丰富的配置选项
              */
             node = new NodeBuilder().settings(settings)
                     .clusterName("elasticsearch-mchen")
