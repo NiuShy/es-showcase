@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" afterPath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" afterPath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,7 +33,7 @@
     <file path="/ESNodeClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392718820871" ignored="false" />
     <file path="$PROJECT_DIR$/../elasticsearch/src/main/java/org/elasticsearch/client/AdminClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392719535658" ignored="false" />
     <file path="/AdminClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392719534434" ignored="false" />
-    <file path="/EmployeeTestDemoApp.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392780543373" ignored="false" />
+    <file path="/EmployeeTestDemoApp.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392891675156" ignored="false" />
     <file path="/*.regexp" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392775378376" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,25 @@
       <file leaf-file-name="EmployeeTestDemoApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="7" selection-start="9312" selection-end="9312" vertical-scroll-proportion="0.75195825">
+            <state line="281" column="23" selection-start="10848" selection-end="10848" vertical-scroll-proportion="0.71548116">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESNodeClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +125,7 @@
       <file leaf-file-name="ESTransportClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="30" column="5" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,6 +295,44 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es-showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es-showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esnative" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -303,35 +358,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTestDemoApp.testIdsQuery">
-    <configuration default="false" name="EmployeeTestDemoApp.testMatchQuery" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="es.showcase.client.esnative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="es-showcase" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
-      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
-      <option name="METHOD_NAME" value="testMatchQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmployeeTestDemoApp.testDeleteIndex">
     <configuration default="false" name="EmployeeTestDemoApp.testTermQuery" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,6 +456,34 @@
       <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
       <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
       <option name="METHOD_NAME" value="testIdsQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmployeeTestDemoApp.testDeleteIndex" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="es.showcase.client.esnative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="es-showcase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
+      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
+      <option name="METHOD_NAME" value="testDeleteIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -558,19 +613,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchQuery" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchQuery" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -607,11 +662,11 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.804742" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15566714" sideWeight="0.57182705" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15566714" sideWeight="0.7043236" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17360115" sideWeight="0.57182705" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42817295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17360115" sideWeight="0.7043236" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29567644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -746,27 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.5798165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.4736843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/index/query/QueryBuilders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="22" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.22160149">
@@ -774,9 +808,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/action/delete/DeleteResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="19" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.33263597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="7" selection-start="9312" selection-end="9312" vertical-scroll-proportion="0.75195825">
+        <state line="281" column="23" selection-start="10848" selection-end="10848" vertical-scroll-proportion="0.71548116">
           <folding />
         </state>
       </provider>

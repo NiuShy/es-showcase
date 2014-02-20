@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import es.showcase.domain.Employee;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
 import org.elasticsearch.action.bulk.BulkResponse;
+import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchResponse;
@@ -19,6 +20,7 @@ import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 import org.elasticsearch.search.highlight.HighlightField;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -27,6 +29,8 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
+
+import static org.junit.Assert.assertEquals;
 
 
 /**
@@ -132,7 +136,7 @@ public class EmployeeTestDemoApp {
                 .setSearchType(SearchType.QUERY_AND_FETCH)
                 .setQuery(QueryBuilders.fieldQuery("descript", "easy"))
                 .setFilter(FilterBuilders.rangeFilter("salary").from(6000).to(7000))
-                .setFrom(0).setSize(20).setExplain(true)        //setSize分页显示
+                .setFrom(0).setSize(20).setExplain(true)        //setSize分页显示,setExplain是否按查询匹配度排序
                 .execute().actionGet();
         SearchHit[] results = searchResponse.getHits().getHits();
         SearchHits searchHits = searchResponse.getHits();
@@ -269,6 +273,16 @@ public class EmployeeTestDemoApp {
     }
 
     @Test
+    public void testDeleteIndex(){
+        Client client = esNativeClient.getEsClient();
+        DeleteResponse response = client.prepareDelete("company", "employees", "HP-0xff00")
+                .execute().actionGet();
+        System.out.println(response.getId());
+        System.out.println(response.isNotFound());
+        assertEquals(response.getId(), "HP-0xff00");
+    }
+
+    @After
     public void closeEsClient(){
         esNativeClient.shutdown();
     }
