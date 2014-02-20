@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" afterPath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="es-showcase.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,6 +34,7 @@
     <file path="/AdminClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392719534434" ignored="false" />
     <file path="/EmployeeTestDemoApp.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392891675156" ignored="false" />
     <file path="/*.regexp" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392775378376" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392891946585" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="EmployeeTestDemoApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="281" column="23" selection-start="10848" selection-end="10848" vertical-scroll-proportion="0.71548116">
+            <state line="279" column="23" selection-start="10751" selection-end="10751" vertical-scroll-proportion="0.5376569">
               <folding />
             </state>
           </provider>
@@ -644,7 +644,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40725243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -666,7 +666,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17360115" sideWeight="0.7043236" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29567644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29567644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -838,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="23" selection-start="10848" selection-end="10848" vertical-scroll-proportion="0.71548116">
+        <state line="279" column="23" selection-start="10751" selection-end="10751" vertical-scroll-proportion="0.5376569">
           <folding />
         </state>
       </provider>

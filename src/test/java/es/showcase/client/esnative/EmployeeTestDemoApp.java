@@ -277,8 +277,6 @@ public class EmployeeTestDemoApp {
         Client client = esNativeClient.getEsClient();
         DeleteResponse response = client.prepareDelete("company", "employees", "HP-0xff00")
                 .execute().actionGet();
-        System.out.println(response.getId());
-        System.out.println(response.isNotFound());
         assertEquals(response.getId(), "HP-0xff00");
     }
 
