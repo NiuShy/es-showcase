@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch-mchen/nodes/0/_state/global-1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch-mchen/nodes/0/_state/global-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch-mchen/nodes/0/node.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/node.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/index/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/index/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/2/index/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/index/segments.gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/index/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/index/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/2/index/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/index/segments_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/_state/state-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/indexdemo/_state/state-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/translog/translog-1392976031284" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/translog/translog-1392976031284" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/2/translog/translog-1392976031284" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/translog/translog-1392976031284" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/index/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/index/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/2/index/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/index/write.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/index/_checksums-1392976031339" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/index/_checksums-1392976031392" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/2/index/_checksums-1392976031475" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/index/_checksums-1392976031591" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/0/_state/state-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/1/_state/state-2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/abc/4/_state/state-2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" afterPath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java" afterPath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" afterPath="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\Develop\IdeaProjects\es-showcase\src\main\java\es\showcase\client\esnative\ESNativeClient.java" afterPath="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESClient.java" />
     </list>
     <ignored path="es-showcase.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392775337137" ignored="false" />
-    <file path="/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392689157162" ignored="false" />
+    <file path="/Dummy.txt" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392972100833" ignored="false" />
+    <file path="/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392952636701" ignored="false" />
     <file path="E:/elasticSearch/demo/EsDemo/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392689482037" ignored="false" />
     <file path="$PROJECT_DIR$/../apex/core/src/main/java/com/hupu/apex/rule/DSLRule.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392692518073" ignored="false" />
     <file path="$PROJECT_DIR$/../apex/core/src/main/java/com/hupu/apex/server/WebSocketServerHandler.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392692518073" ignored="false" />
@@ -29,12 +63,15 @@
     <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/App.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715948257" ignored="false" />
     <file path="E:/elasticSearch/demo/EsDemo/src/main/java/me/minified/esdemo/EsDao.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715569004" ignored="false" />
     <file path="/EsDao.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392715463758" ignored="false" />
-    <file path="/ESNodeClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392718820871" ignored="false" />
+    <file path="/ESNodeClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392977826396" ignored="false" />
     <file path="$PROJECT_DIR$/../elasticsearch/src/main/java/org/elasticsearch/client/AdminClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392719535658" ignored="false" />
     <file path="/AdminClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392719534434" ignored="false" />
-    <file path="/EmployeeTestDemoApp.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392891675156" ignored="false" />
-    <file path="/*.regexp" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392775378376" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392891946585" ignored="false" />
+    <file path="/EmployeeTestDemoApp.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392892397292" ignored="false" />
+    <file path="/*.regexp" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392959420904" ignored="false" />
+    <file path="E:/elasticSearch/demo/free-main/pom.xml" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392952451833" ignored="false" />
+    <file path="E:/elasticSearch/demo/free-main/free-apithrift/src/main/resources/vo.thrift" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392955275027" ignored="false" />
+    <file path="/ESNativeClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392972002221" ignored="false" />
+    <file path="/ESTransportClient.java" changelist="7bc02be3-eeed-4eb7-af6a-1ab6f7bf5304" time="1392978765774" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,19 +132,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmployeeTestDemoApp.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployeeTestDemoApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="23" selection-start="10751" selection-end="10751" vertical-scroll-proportion="0.5376569">
+            <state line="49" column="39" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/Employee.java">
+      <file leaf-file-name="ESTransportClient.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="29" column="13" selection-start="779" selection-end="779" vertical-scroll-proportion="0.49203187">
               <folding />
             </state>
           </provider>
@@ -116,16 +153,25 @@
       <file leaf-file-name="ESNodeClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="393" selection-end="397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ESTransportClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
+      <file leaf-file-name="ESClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
+            <state line="10" column="19" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="44" selection-start="949" selection-end="981" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,12 +196,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/es/showcase/domain/dd.java" />
         <option value="$PROJECT_DIR$/src/main/java/es/showcase/domain/abcde.java" />
-        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNativeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java" />
       </list>
     </option>
   </component>
@@ -358,7 +406,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTestDemoApp.testDeleteIndex">
+  <component name="RunManager" selected="JUnit.EmployeeTestDemoApp.indexSingle">
     <configuration default="false" name="EmployeeTestDemoApp.testTermQuery" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,62 +420,6 @@
       <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
       <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
       <option name="METHOD_NAME" value="testTermQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmployeeTestDemoApp.testMultiMatchQuery" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="es.showcase.client.esnative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="es-showcase" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
-      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
-      <option name="METHOD_NAME" value="testMultiMatchQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmployeeTestDemoApp.testMatchPhraseQuery" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="es.showcase.client.esnative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="es-showcase" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
-      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
-      <option name="METHOD_NAME" value="testMatchPhraseQuery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -484,6 +476,56 @@
       <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
       <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
       <option name="METHOD_NAME" value="testDeleteIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ESNodeClient" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="es.showcase.client.esnative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.ESNodeClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="es-showcase" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmployeeTestDemoApp.indexSingle" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="es.showcase.client.esnative.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="es-showcase" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="es.showcase.client.esnative" />
+      <option name="MAIN_CLASS_NAME" value="es.showcase.client.esnative.EmployeeTestDemoApp" />
+      <option name="METHOD_NAME" value="indexSingle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -614,18 +656,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ESNodeClient" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexSingle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMatchPhraseQuery" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testMultiMatchQuery" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.indexSingle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ESNodeClient" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testDeleteIndex" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testIdsQuery" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestDemoApp.testTermQuery" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -643,7 +685,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40725243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -662,11 +704,11 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.804742" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15566714" sideWeight="0.7043236" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15566714" sideWeight="0.7559275" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17360115" sideWeight="0.7043236" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29567644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21090387" sideWeight="0.7559275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24407253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,23 +808,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.038321167">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="12" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/client/transport/TransportClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="26" selection-start="10991" selection-end="11006" vertical-scroll-proportion="4.623327">
           <folding />
         </state>
       </provider>
@@ -794,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNativeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="214" selection-end="214" vertical-scroll-proportion="0.37431192">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/index/query/QueryBuilders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="22" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.22160149">
@@ -808,23 +829,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/domain/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.03655914">
           <folding />
         </state>
       </provider>
@@ -836,9 +843,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="44" selection-start="949" selection-end="981" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/common/settings/ImmutableSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="491" column="26" selection-start="18561" selection-end="18561" vertical-scroll-proportion="0.33146068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/es/showcase/client/esnative/EmployeeTestDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="23" selection-start="10751" selection-end="10751" vertical-scroll-proportion="0.5376569">
+        <state line="49" column="39" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/0.90.11/elasticsearch-0.90.11-sources.jar!/org/elasticsearch/client/transport/TransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="11" selection-start="5049" selection-end="5049" vertical-scroll-proportion="0.33125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESNodeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="393" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/es/showcase/client/esnative/ESTransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="779" selection-end="779" vertical-scroll-proportion="0.49203187">
           <folding />
         </state>
       </provider>

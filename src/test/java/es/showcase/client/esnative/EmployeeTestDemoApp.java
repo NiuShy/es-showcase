@@ -1,6 +1,5 @@
 package es.showcase.client.esnative;
 
-import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import es.showcase.domain.Employee;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
@@ -30,7 +29,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 
 /**
@@ -42,7 +43,7 @@ public class EmployeeTestDemoApp {
 
     private static final ObjectMapper mapper = new ObjectMapper();
 
-    private ESNativeClient esNativeClient;
+    private ESClient esNativeClient;
 
     @Before
     public void initESClient(){
@@ -277,7 +278,7 @@ public class EmployeeTestDemoApp {
         Client client = esNativeClient.getEsClient();
         DeleteResponse response = client.prepareDelete("company", "employees", "HP-0xff00")
                 .execute().actionGet();
-        assertEquals(response.getId(), "HP-0xff00");
+        assertThat("HP-0xff00",is(response.getId()));
     }
 
     @After
