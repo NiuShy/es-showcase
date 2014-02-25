@@ -54,11 +54,12 @@ public class ESNodeClient implements ESClient {
         node = null;
     }
 
-    /*public static void main(String[] args){
+    public static void main(String[] args){
         ESNodeClient esNodeClient = new ESNodeClient();
         Client client = esNodeClient.getEsClient();
-        client.prepareIndex("nodet","tp")
-                .setSource("{\"a\":10,\"b\":\"Test\"}")
-                .execute().actionGet();
-    }*/
+        System.out.println(client == null);
+//        client.prepareIndex("nodet","tp")
+//                .setSource("{\"a\":10,\"b\":\"Test\"}")
+//                .execute().actionGet();
+    }
 }

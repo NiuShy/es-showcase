@@ -13,6 +13,8 @@
         <jdk.version>1.7</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <es.version>0.90.11</es.version>
+        <guava.version>16.0</guava.version>
+        <spring.version>3.2.8.RELEASE</spring.version>
         <jackson.version>2.3.1</jackson.version>
         <slf4j.version>1.7.5</slf4j.version>
         <junit.version>4.11</junit.version>
@@ -27,6 +29,25 @@
             <version>${es.version}</version>
         </dependency>
 
+        <!-- Spring-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
         <!-- Jackson-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -38,6 +59,13 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- Guava-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
 
         <!-- SLF4J-->
