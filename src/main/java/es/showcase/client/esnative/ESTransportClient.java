@@ -28,7 +28,7 @@ public class ESTransportClient implements ESClient {
     public Client getEsClient() {
         if(null == client){
             final Settings settings = ImmutableSettings.settingsBuilder()
-                    .put("client.transport.sniff", true)      //开启嗅探es集群状态,把集群中所有节点ip地址添加到客户端中去,并且会自动添加新加入到集群中的es节点
+                        .put("client.transport.sniff", true)      //开启嗅探es集群状态,把集群中所有节点ip地址添加到客户端中去,并且会自动添加新加入到集群中的es节点
                     //.put("number_of_shards",3)              //<<---------和Node方式一样都没有起到效果
                     //.put("number_of_replicas",0)
                     .put("cluster.name", "elasticsearch-mchen")
